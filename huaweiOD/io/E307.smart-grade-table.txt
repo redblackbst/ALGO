@@ -1,0 +1,6 @@
+3 2
+Physics Chemistry
+Alice 100 0
+Bob 50 50
+Charlie 0 100
+Chemistry
