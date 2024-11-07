@@ -16,7 +16,7 @@ int main() {
     int n = cnt.size();
     vector<int> ans(n);
     int num = 1, idx = 0;
-    while (sum) {
+    while (sum) {   // clever use of sum!
         if (num % 7 == 0 || to_string(num).find("7") != string::npos) {
             --sum;
             ++ans[idx];

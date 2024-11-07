@@ -4,6 +4,8 @@
 #include <algorithm>
 using namespace std;
 
+// TODO: use Trie
+
 int main() {
     string str, pre, word;
     getline(cin, str);

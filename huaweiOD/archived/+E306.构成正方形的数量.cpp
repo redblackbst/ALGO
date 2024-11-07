@@ -16,7 +16,7 @@ bool operator==(const Point& a, const Point& b) {
 }
 
 bool bs(vector<Point>& points, Point p, int l, int r) {
-    int left = l, right = r, mid;
+    int left = l, right = r;
     while (left <= right) {
         int mid = (left + right) / 2;
         if (points[mid] == p) return true;

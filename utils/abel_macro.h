@@ -54,8 +54,8 @@ const ull Pr = 131;
 #define pb push_back
 #define has(a, x) (a.find(x) != a.end())
 #define nemp(a) (!a.empty())
-#define all(a) (a).begin(), (a).end()
-#define all1(a, len) (a + 1), (a + 1 + len)
+// #define all(a) (a).begin(), (a).end()
+// #define all1(a, len) (a + 1), (a + 1 + len)
 #define SZ(a) int((a).size())
 #define NL cout << '\n';
  

@@ -18,7 +18,7 @@ int main() {
     bool hasSubstr = false;
     for (int left = 0, right = 0; right < s2.length(); ++right) {
         char cr = s2[right];
-        cnt[cr-'a']++;
+        cnt[cr-'a']++;  // exclude the case where c \notin s1
         if (cnt[cr-'a'] <= s1Cnt[cr-'a']) {
             leftChars--;
         }

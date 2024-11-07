@@ -23,7 +23,7 @@ int main() {
     }
     vector<int> res;
     int m = 0;
-    while (m < cnt) {
+    while (m < cnt) {   // roll + erase
         for (int i = 0; i < n ; ++i) {
             auto t = len > v[i].size() ? v[i].end() : v[i].begin()+len;
             copy(v[i].begin(), t, back_inserter(res));
