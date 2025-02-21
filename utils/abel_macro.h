@@ -94,7 +94,6 @@ template <typename t> ostream &operator<<(ostream &out, vector<t> &vec) {
 #define TN TreeNode
 #define TNP TreeNode *
  
-#ifdef _DEBUG
 struct ListNode {
   int val;
   ListNode *next;
@@ -117,7 +116,6 @@ void PrePrintLCTree(TNP root) {
   if (!root)
     return;
   // dbgi(root->val);
-  dbg(root->val);
   PrePrintLCTree(root->left);
   PrePrintLCTree(root->right);
 }
@@ -215,7 +213,6 @@ public:
   }
 };
  
-#endif
 // End of LeetCode
  
 // class Solution {
