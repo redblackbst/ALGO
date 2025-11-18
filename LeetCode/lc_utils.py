@@ -49,8 +49,9 @@ except Exception:  # fallback for 3.9
 from functools import lru_cache, cache, reduce
 
 # --- math & strings ---
-from math import inf, ceil, floor, gcd, sqrt, factorial, log2, atan2, pi, lcm, gcd
+from math import inf, ceil, floor, gcd, sqrt, isqrt, factorial, log2, atan2, pi, lcm, gcd
 from string import ascii_lowercase, ascii_uppercase
+from random import randint
 
 # --- dataclasses (occasionally handy) ---
 from dataclasses import dataclass
@@ -95,8 +96,9 @@ __all__ = [
     "accumulate","combinations","permutations","product","groupby","pairwise",
     "lru_cache","cache","reduce",
     # math/string and constants
-    "inf","ceil","floor","gcd","sqrt","factorial","log2","atan2","pi","lcm","gcd",
+    "inf","ceil","floor","gcd","sqrt","isqrt","factorial","log2","atan2","pi","lcm","gcd",
     "ascii_lowercase","ascii_uppercase","INF","NEG_INF","DIR4","DIR8",
+    "randint",
     # dataclasses
     "dataclass",
     # nodes
